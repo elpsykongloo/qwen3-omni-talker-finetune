@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code or the label recipe, please cite the report below."
+title: "Qwen3-Omni Talker Finetune: label recipe, label checker and fine-tuning toolkit"
+type: software
+authors:
+  - family-names: "Chen"
+    given-names: "Yuxuan"
+    affiliation: "The Chinese University of Hong Kong, Shenzhen"
+repository-code: "https://github.com/elpsykongloo/qwen3-omni-talker-finetune"
+license: Apache-2.0
+version: "0.1.0"
+keywords:
+  - Qwen3-Omni
+  - Mimi
+  - speech tokenizer
+  - text-to-speech
+  - fine-tuning
+  - LoRA
+preferred-citation:
+  type: report
+  title: "Reproducing the Speech Labels of Qwen3-Omni's Talker: Mimi in bf16, and a Last-Frame Pitfall"
+  authors:
+    - family-names: "Chen"
+      given-names: "Yuxuan"
+      affiliation: "The Chinese University of Hong Kong, Shenzhen"
+  year: 2026

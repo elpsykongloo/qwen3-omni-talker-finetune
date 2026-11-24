@@ -1,0 +1,10 @@
+{
+  "title": "Qwen3-Omni Talker Finetune: label recipe, label checker and fine-tuning toolkit",
+  "upload_type": "software",
+  "description": "Recipe to reproduce the speech labels of Qwen3-Omni's Talker (kyutai Mimi, first 16 codebooks, moshi package with bf16 weights, tail-padded input), a label checker based on Talker likelihoods, and a LoRA fine-tuning toolkit for new voices. Accompanies the technical report 'Reproducing the Speech Labels of Qwen3-Omni's Talker: Mimi in bf16, and a Last-Frame Pitfall'.",
+  "creators": [
+    {"name": "Chen, Yuxuan", "affiliation": "The Chinese University of Hong Kong, Shenzhen"}
+  ],
+  "license": "apache-2.0",
+  "keywords": ["Qwen3-Omni", "Mimi", "speech tokenizer", "text-to-speech", "fine-tuning", "LoRA"]
+}

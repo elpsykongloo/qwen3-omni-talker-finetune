@@ -1,0 +1,22 @@
+# Install in two steps:
+#   pip install -r requirements.txt
+#   pip install --no-deps moshi==0.2.13
+# moshi pins huggingface-hub<1.0 and safetensors<0.8, which transformers>=5.20 cannot use, so it is installed
+# without its dependencies; the ones the Mimi encoder needs are listed below.
+# torch: moshi supports <2.10. The released codes were made with torch 2.9.1; a newer torch changes some bf16 codes,
+# as another GPU does.
+torch>=2.9,<2.10
+transformers>=5.20
+peft
+safetensors
+huggingface_hub
+numpy
+soundfile
+soxr
+# moshi's runtime dependencies
+einops
+sentencepiece
+sphn
+# evaluation (talker_tune.evaluate)
+jiwer
+sherpa-onnx
