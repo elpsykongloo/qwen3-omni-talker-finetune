@@ -6,5 +6,8 @@
     {"name": "Chen, Yuxuan", "affiliation": "The Chinese University of Hong Kong, Shenzhen"}
   ],
   "license": "apache-2.0",
-  "keywords": ["Qwen3-Omni", "Mimi", "speech tokenizer", "text-to-speech", "fine-tuning", "LoRA"]
+  "keywords": ["Qwen3-Omni", "Mimi", "speech tokenizer", "text-to-speech", "fine-tuning", "LoRA"],
+  "related_identifiers": [
+    {"identifier": "10.48550/arXiv.2611.32286", "relation": "isSupplementTo", "resource_type": "publication-preprint", "scheme": "doi"}
+  ]
 }

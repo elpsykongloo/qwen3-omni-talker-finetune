@@ -12,7 +12,7 @@ training audio into those codes, so new voices could not be trained on matching 
   vLLM-Omni.
 - **`calib_lm.py`**, the calibration code language models used for the likelihood test.
 - The technical report: *Reproducing the Speech Labels of Qwen3-Omni's Talker: Mimi in bf16, and a Last-Frame
-  Pitfall*.
+  Pitfall*, [arXiv:2611.32286](https://arxiv.org/abs/2611.32286).
 
 Data (test-set codes for all encoder variants, Talker log-likelihoods, the 13 calibration models) and sample voices:
 [Hugging Face collection](https://huggingface.co/collections/mifanbushipeicai/qwen3-omni-talker-finetune-6aec41e50ac465e3f0ef9222).
@@ -191,11 +191,13 @@ labels and 0 % with padded ones (one VCTK speaker, 2 seeds). We reported this to
 
 ```bibtex
 @misc{chen2026qwen3omnitalker,
-  title  = {Reproducing the Speech Labels of {Qwen3-Omni}'s Talker: {Mimi} in bf16, and a Last-Frame Pitfall},
-  author = {Chen, Yuxuan},
-  year   = {2026},
-  note   = {Technical report},
-  url    = {https://github.com/elpsykongloo/qwen3-omni-talker-finetune}
+  title         = {Reproducing the Speech Labels of {Qwen3-Omni}'s Talker: {Mimi} in bf16, and a Last-Frame Pitfall},
+  author        = {Chen, Yuxuan},
+  year          = {2026},
+  eprint        = {2611.32286},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SD},
+  url           = {https://arxiv.org/abs/2611.32286}
 }
 ```
 

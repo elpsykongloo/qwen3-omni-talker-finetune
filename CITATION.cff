@@ -17,10 +17,13 @@ keywords:
   - fine-tuning
   - LoRA
 preferred-citation:
-  type: report
+  type: article
   title: "Reproducing the Speech Labels of Qwen3-Omni's Talker: Mimi in bf16, and a Last-Frame Pitfall"
   authors:
     - family-names: "Chen"
       given-names: "Yuxuan"
       affiliation: "The Chinese University of Hong Kong, Shenzhen"
   year: 2026
+  journal: "arXiv preprint arXiv:2611.32286"
+  doi: "10.48550/arXiv.2611.32286"
+  url: "https://arxiv.org/abs/2611.32286"
